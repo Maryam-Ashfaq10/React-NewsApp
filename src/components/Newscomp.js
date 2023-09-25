@@ -28,16 +28,7 @@ const Newscomp = (props) => {
         updateNews();
     }, [] )
 
-//buttons opt    
-    // const handleprev = async () => {
-    //     setPage(page - 1)
-    //     updateNews()
-    // }
 
-    // const handlenext = async () => {
-    //      setPage(page + 1)
-    //     updateNews()
-    // }
 
     const fetchMoreData = async () => {
       
@@ -76,12 +67,7 @@ const Newscomp = (props) => {
                     </div >
                 </InfiniteScroll>
                 
-                {/* button opt<div className="d-flex justify-content-between">
-
-                    <button disabled={page <= 1} type="button" className="btn btn-info" onClick={handleprev} >previous</button>
-                    <button type="button" className="btn btn-info" onClick={handlenext} >next</button>
-
-                </div> */}
+              
             </div>
         )
    
